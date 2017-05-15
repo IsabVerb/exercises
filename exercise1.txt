@@ -1,0 +1,11 @@
+mkdir exercises
+cd exercises
+echo "# exercises" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https;//github.com/IsabVerb/exercises.git
+git push -u origin master
+git add exercise1.txt
+git commit -m "exercise1 without git commands"
+git push
